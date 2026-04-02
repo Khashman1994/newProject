@@ -2,144 +2,170 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bäckerei Aachen, Handwerk, Aachener Kruste</title>
     <meta property="og:description" content="Herzlich Willkommen in der besten Bäckerei der Aachener Stadt">
 </head>
 
 <body>
 
-<a class="skip-link" href="#hauptinhalt">Zum Hauptinhalt springen</a>
+    <a class="skip-link" href="#hauptinhalt">Zum Hauptinhalt springen</a>
 
-<header>
-    <nav aria-label="Haupt">
-        <ul>
-            <li><a href="/" aria-current="page">Startseite</a></li>
-            <li><a href="#ueber-uns">Über uns</a></li>
-            <li><a href="#sortiment">Sortiment</a></li>
-            <li><a href="#kundenbewertungen">Kundenbewertungen</a></li>
-        </ul>
-    </nav>
-    
-    <nav aria-label="Brotkrümel">
-        <ol>
-            <li><a href="/">Startseite</a></li>
-            <li><a href="#sortiment">Sortiment</a></li>
-            <li aria-current="page">Dinkelkruste</li>
-        </ol>
-    </nav>
-</header>
+    <header>
+        <img src="images/logo-aachener-kruste.png" alt="Logo der Bäckerei Aachener Kruste" width="200" height="100">
 
-<main id="hauptinhalt">
-    <h1>Aachener Kruste – Deine Handwerksbäckerei</h1>
+        <nav aria-label="Haupt">
+            <ul>
+                <li><a href="/" aria-current="page">Startseite</a></li>
+                <li><a href="#ueber-uns">Über uns</a></li>
+                <li><a href="#sortiment">Sortiment</a></li>
+                <li><a href="#kundenbewertungen">Kundenbewertungen</a></li>
+            </ul>
+        </nav>
+        
+        <nav aria-label="Brotkrümel">
+            <ol>
+                <li><a href="/">Startseite</a></li>
+                <li><a href="#sortiment">Sortiment</a></li>
+                <li aria-current="page">Dinkelkruste</li>
+            </ol>
+        </nav>
+    </header>
+
+   
+    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600" alt="Test Brot" loading="lazy" style="width:1000px;height:600px;">
+    <main id="hauptinhalt">
+        <h1>Aachener Kruste – Deine Handwerksbäckerei</h1>
+        
+        <section id="ueber-uns">
+            <h2>Über Uns – Tradition seit 2026</h2>
+            <p>
+                Der warme Frühlingswind wehte durch das offene Fenster und brachte den Duft von 
+                <strong>frisch</strong> gemähtem Gras mit sich, während auf dem Küchentisch 
+                der Kaffee dampfte...
+            </p>
+
+             <video controls poster="images/teig-vorschau.jpg" width="600" height=" 400">
+
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="videos/brot-handwerk.mp4" type="video/mp4">
+        Dein Browser unterstützt leider keine HTML5-Videos. <br>
+         Du kannst das Video aber auf unserem YouTube-Kanal ansehen
+    </video>
+
     
-    <section id="ueber-uns">
-        <h2>Über Uns – Tradition seit 2026</h2>
-        <p>
-            Der warme Frühlingswind wehte durch das offene Fenster und brachte den Duft von 
-            <strong>frisch</strong> gemähtem Gras mit sich, während auf dem Küchentisch 
-            der Kaffee dampfte. In genau solchen Momenten entstand die Idee zur 
-            <em>Aachener Kruste</em>: Wir wollten das ehrliche Handwerk zurück in die 
-            Nachbarschaft bringen.
-        </p>
         </section>
 
 
+        <section id="kundenbewertungen">
+            <h2>Das sagen unsere Kunden</h2>
+            
+            <sterne-bewertung>Die Dinkelkruste ist das beste Brot in ganz Aachen!</sterne-bewertung>
+            
+            <sterne-bewertung>Immer frisch, immer lecker. Tolles Handwerk.</sterne-bewertung>
+            
+            <sterne-bewertung>Ich liebe die Printen. Komme jeden Samstag hierher.</sterne-bewertung>
+        </section>
+        <section id="sortiment">
+            <h2>Unsere Bestseller</h2>
+            <ol>
+                <li>
+                    <figure>
+                        <img src="images/dinkelkruste.jpg" alt="Ein knuspriges, dunkles Dinkelbrot auf einem Rustikalen Holztisch" width="400" height="300">
+                        <figcaption>Unsere Dinkelkruste: 48 Stunden Teigruhe für maximales Aroma.</figcaption>
+                    </figure>
+                </li>
+                <li>Aachener Printen</li>
+                <li>Schoko-Croissant</li>
+            </ol>
+        </section>
 
         <section id="preise">
             <h2>Unsere Preisliste</h2>
             <table>
                 <caption>Preisliste für unsere Bestseller</caption>
                 <thead>
-                <tr>
-                    <th scope="col">Backware</th>
-                    <th scope="col">Menge</th>
-                    <th scope="col">Preise</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Dinkelkruste</th>
-                    <td>1 Laib</td>
-                    <td>4,50 €</td>
-                </tr>
-                <tr>
-                     <th scope="row">Aachener Printen</th>
-                    <td>500g</td>
-                    <td>6,90 €</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2"> Alle Preise ink.MwST.</td>
-                    <td></td>
-                </tr>
-
-            </tfoot>
+                    <tr>
+                        <th scope="col">Backware</th>
+                        <th scope="col">Menge</th>
+                        <th scope="col">Preis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Dinkelkruste</th>
+                        <td>1 Laib</td>
+                        <td>4,50 €</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Alle Preise inkl. MwSt.</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
             </table>
-
         </section>
-
 
         <section id="kontakt">
             <h2>Jetzt Vorbestellen</h2>
             <form action="#" method="post">
                 <fieldset>
                     <legend>Deine Kontaktdaten</legend>
-                    
-                    <label > Name<input type="text" name="name" required></label>
-                    <label>E-mail <input type="email" required> </label>
+                    <label>Name: <input type="text" name="name" required></label>
+                    <label>E-Mail: <input type="email" name="email" required></label>
                 </fieldset>
-
-                <fieldset>
-                    <legend>Was möchtest du bestellen?</legend>
-                    <ul>
-                        <li>
-                            <label>
-                                <input type="radio" value="Dinkelkruste" name="a"> Dinkelkruste
-                            </label>
-                        </li>
-                        <li>
-                              <label>
-                                <input type="radio" value="Aachener Printen" name="a"> Aachener Printen
-                            </label>
-                        </li>
-
-                        <li>
-                            <label>
-                                <input type="radio" value="Gemischte Brötchen" name="a"> Gemischte Brötchen
-                            </label>
-                        </li>
-
-                    </ul>
-
-                </fieldset>
-                  <textarea name="Besondere Wünsche" id="wuensche">Besondere Wünsche</textarea>
                 <button type="submit">Bestellung abschicken</button>
             </form>
         </section>
 
+        <img src="images/weizen-icon.svg" alt="" role="presentation" width="50" height="50">
+       <h3>Unsere Öffnungszeiten</h3>
+       <p>
+    Montag – Freitag: <time datetime="06:00">06:00</time> bis <time datetime="18:00">18:00</time> Uhr<br>
+    Samstag: <time datetime="06:00">06:00</time> bis <time datetime="13:00">13:00</time> Uhr<br>
+    </p>
+
     </main>
 
-<footer>
-    <dl>
-        <dt>Öffnungszeiten</dt>
-        <dd>Mo-Sa: 06:00 - 18:00 Uhr</dd>
-    </dl>
+    <footer>
+        <nav aria-label="Rechtlich">
+            <ul>
+                <li><a href="#impressum">Impressum</a></li>
+                <li><a href="#datenschutz">Datenschutz</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Aachener Kruste</p>
+    </footer>
 
-    <nav aria-label="Rechtlich">
-        <ul>
-            <li><a href="#impressum">Impressum</a></li>
-            <li><a href="#datenschutz">Datenschutz</a></li>
-        </ul>
-    </nav>
 
-    <p>Bestellhotline 
-        <a href="tel:+49241123456">Anrufen</a>
-        <a href="mailto:hallo@aachener-kruste.de">Email schreiben</a>
-    </p>
-    <p>&copy; 2026 Aachener Kruste</p>
-</footer>
 
+
+
+    <template id="sterne-vorlage">
+        <style>
+            /* Dieses CSS ist im Shadow DOM eingesperrt und ändert nichts am Rest der Seite! */
+            .sterne { color: gold; font-size: 24px; }
+            .zitat { font-style: italic; color: #555; }
+        </style>
+        <div class="bewertung">
+            <span class="sterne">★★★★★</span>
+            <p class="zitat">"<slot></slot>"</p> 
+        </div>
+    </template>
+
+    <script>
+        customElements.define('sterne-bewertung', class extends HTMLElement {
+            constructor() {
+                super();
+                // Hier holen wir die Vorlage
+                const vorlage = document.getElementById('sterne-vorlage').content;
+                // Hier erstellen wir den "Schatten" (Shadow DOM)
+                const shadowRoot = this.attachShadow({ mode: 'open' });
+                // Wir packen die Vorlage in den Schatten
+                shadowRoot.appendChild(vorlage.cloneNode(true));
+            }
+        });
+    </script>
 </body>
 </html>
